@@ -92,6 +92,19 @@
             } else {
                 echo "Невозможно определить время";
             }
-        ?>
+
+            echo "<hr>";
+            echo 'Задание 9';
+            echo "<hr>";
+
+            $num = 1000;
+            
+            while ($num >= 50) {
+                $num /= 2;
+                
+            }
+            echo "Через while: $num";
+
+         ?>
     </body>
 </html>
